@@ -10,5 +10,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <script defer>
+      function initXdnRum() {
+        new Layer0.Metrics({
+          token: '17a1a83e-d3bf-4893-9a0c-e78eaa33a1d3'
+        }).collect()
+      }
+    </script>
+    <script src="https://rum.layer0.co/latest.js" defer onload="initXdnRum()"></script>
   </body>
 </html>
+
+
+
